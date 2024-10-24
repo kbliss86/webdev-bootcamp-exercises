@@ -1,0 +1,40 @@
+/* Universal Selector */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Element Selectors select all of that element type */
+body {
+  background-color: lemonchiffon;
+}
+
+/* .box.box-blue is a more specific selector than section so it wins even though it is first */
+.box.box-blue {
+  width: 200px;
+}
+
+section {
+  height: 400px;
+  width: 300px;
+}
+
+.box .yellow {
+  color: yellow;
+}
+p {
+  font-size: 60px;
+  line-height: 200px;
+}
+
+/* Class Selectors select all elements with that class */
+.box-blue {
+  color: white;
+  background-color: blue;
+}
+
+
+/* Id Selectors are unique a unique id to identify an element */
+#box-orange {
+  color: blue;
+  background-color: orange;
+}
